@@ -6,10 +6,9 @@ let caratteri = parola.split('');
 let invertita = caratteri.reverse().join('');
 // Verifica se la parola è palindroma
 if (parola === invertita) {
-	console.log(parola + " è una parola palindroma.");
+	return(parola + " è una parola palindroma.");
 } else {
-	console.log(parola + " non è una parola palindroma.");
+	return(parola + " non è una parola palindroma.");
 }
-return palindroma;
     
 }
