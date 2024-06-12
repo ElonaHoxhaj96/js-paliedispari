@@ -21,5 +21,5 @@ let nrUtente = prompt('Scegli un numero tra 1 e 5');
 console.log(choise,nrUtente);
 
 
-const Computer = randomicoFinoACinque;
-console.log(nrComputer);
+let computerNumber = randomicoFinoACinque(5);
+console.log(computerNumber);
